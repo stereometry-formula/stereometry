@@ -1,0 +1,13 @@
+a = input("What is a? ")
+b = input("What is b? ")
+c = input("What is c? ")
+
+a = int(a)
+b = int(b)
+c = int(c)
+stra = f'{a}'
+strb = f'{b}'
+strc = f'{c}'
+res = a*b*c
+strres = f'{res}'
+print("The volume of the cuboid with the side length a="+stra+", b="+strb+" and c="+strc+" is: "+strres)
