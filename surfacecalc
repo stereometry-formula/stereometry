@@ -1,0 +1,16 @@
+import math
+
+
+a = input("What is A? ")
+b = input("What is B? ")
+c = input("What is C? ")
+
+a = int(a)
+b = int(b)
+c = int(c)
+stra = f'{a}'
+strb = f'{b}'
+strc = f'{c}'
+res = (2*a*b)+(2*a*c)+(2*b*c)
+strres = f'{res}'
+print("Die Oberfläche des Quaders mit der Seitenlänge a="+stra+", b="+strb+", c="+strc+" ist: "+strres)
