@@ -1,9 +1,9 @@
 import math
 
 
-a = input("What is A? ")
-b = input("What is B? ")
-c = input("What is C? ")
+a = input("What is a? ")
+b = input("What is b? ")
+c = input("What is c? ")
 
 a = int(a)
 b = int(b)
